@@ -170,31 +170,31 @@
       left: 20px;
       top: 20px;
   
-      width: 100px;
+      width: 120px;
   
       z-index: 1111;
     }
   
     .navbar .logo img {
-      width: 100px;
+      width: 120px;
     }
   
     .navbar .btn_donation {
-      font-size: 12px;
+      font-size: 15px;
       padding: 10px 10px;
   
       position: absolute;
       top: 30px;
-      left: 130px;
+      left: 150px;
     }
   
     .navbar .btn_donation:hover {
-      font-size: 12px;
+      font-size: 15px;
       padding: 10px 10px;
   
       position: absolute;
       top: 30px;
-      left: 130px;
+      left: 150px;
     }
   }
   
