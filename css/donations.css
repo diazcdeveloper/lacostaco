@@ -1,0 +1,42 @@
+.donations_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: calc(100vh - 100px);
+
+    color: rgb(70, 70, 70);
+}
+
+.donations_page .working{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.donations_page .soon{
+    font-size: 30px;
+    letter-spacing: 10px;
+
+    margin-left: 200px;
+}
+
+@media (max-width: 1000px) {
+
+    .donations_page img{
+        position: absolute;
+        top: 130px;
+        width: 200px;
+    }
+    
+    .donations_page .working{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .donations_page .soon{
+        font-size: 20px;
+        letter-spacing: 10px;
+        margin-left: 100px;
+    }
+}

@@ -1,0 +1,232 @@
+.home .header {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: calc(100vh - 100px);
+
+  display: flex;
+
+  color: rgb(70, 70, 70);
+}
+
+.home.hide{
+  display: none;
+}
+
+.home .header .left_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 100px;
+
+  height: 100%;
+  width: 50%;
+}
+
+.home .header .bg_responsive {
+  display: none;
+}
+
+.home .header .left_header h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 75px;
+}
+
+.home .header .left_header h2 {
+  letter-spacing: 55px;
+}
+
+.home .header .left_header .parrafo {
+  background-color: rgb(70, 70, 70);
+
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 350px;
+
+  color: white;
+  font-size: 18px;
+}
+
+.home .header .right_header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+
+  background-image: url("../img/kid5.JPG");
+  background-size: cover;
+
+  height: 100%;
+  width: 50%;
+}
+.home .header .right_header .header_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: white;
+
+  padding: 10px;
+  margin-bottom: 40px;
+
+  color: black;
+
+  width: 150px;
+  height: 150px;
+}
+
+.home .header .right_header .header_card h3 {
+  font-size: 30px;
+}
+
+.home .header .right_header .header_card p {
+  text-align: center;
+}
+
+
+@media (max-width:1000px){
+    .home .header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .home .header .left_header{
+        position: relative;
+
+        align-items: center;
+        justify-content: flex-end;
+
+        padding: 40px;
+
+        width: 100%;
+        height: calc(100vh - 80px);
+    }
+
+    .home .header .bg_responsive{
+        display: flex;
+        position: absolute;
+        top: 20px;
+        width: 400px;
+    }
+
+    .home .header .left_header h1{
+        font-size: 50px;
+        line-height: 40px;
+    }
+
+    .home .header .left_header h2{
+        letter-spacing: 19px;
+        margin-left: 25px;
+    }
+
+    .home .header .left_header .parrafo{
+        margin: 0;
+
+        width: 280px;
+
+        margin-top: 50px;
+    }
+
+    .home .header .right_header{
+        width: 100%;
+        height: calc(100vh - 80px);
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background-position: center;
+    }
+}
+
+
+
+
+/* pillars of ministry---------------------------------------------- */
+
+.pillars {
+  /* background-color: #f2f2f2; */
+  background-image: url('../img/bgLogo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 100px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: rgb(70, 70, 70);
+}
+
+.pillars h2 {
+  font-size: 70px;
+  font-weight: 900;
+
+  margin: 50px 0 100px 0;
+}
+
+.pillars .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.pillars .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 25%;
+
+  padding: 20px;
+
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 20px 20px 30px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.pillars .cards .card {
+  align-items: center;
+}
+
+@media (max-width: 1000px){
+
+  .pillars{
+      background-repeat: repeat-y;
+      height: auto;
+
+      padding: 30px;
+  }
+
+  .pillars h2{
+      font-size: 50px;
+      text-align: center;
+  }
+
+
+  .pillars .cards .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    
+      width: 80%;
+    
+      padding: 15px;
+    
+      border-radius: 10px;
+      background: #ffffff;
+      box-shadow: 20px 20px 30px #d9d9d9, -20px -20px 60px #ffffff;
+    }
+}

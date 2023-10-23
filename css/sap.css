@@ -1,0 +1,54 @@
+.sap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    height: calc(100vh - 80px);
+
+    color: rgb(70, 70, 70);
+}
+
+.sap.hide{
+    display: none;
+}
+
+.sap img{
+    width: 220px;
+    position: absolute;
+    top: 0;
+}
+
+.sap .working{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sap .soon{
+    font-size: 30px;
+    letter-spacing: 10px;
+
+    margin-left: 200px;
+}
+
+@media (max-width: 1000px) {
+
+    .sap img{
+        position: absolute;
+        top: 60px;
+        width: 200px;
+    }
+    
+    .sap .working{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .sap .soon{
+        font-size: 20px;
+        letter-spacing: 10px;
+        margin-left: 100px;
+    }
+}
