@@ -1,0 +1,22 @@
+.sp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: calc(100vh - 100px);
+
+    color: rgb(70, 70, 70);
+}
+
+.sp .working{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.sp .soon{
+    font-size: 30px;
+    letter-spacing: 10px;
+
+    margin-left: 200px;
+}

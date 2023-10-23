@@ -1,0 +1,74 @@
+.navbar{
+
+    background-color: white;
+
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 100px;
+    padding: 0 70px 0 70px;
+
+    z-index: 1;
+}
+
+.navbar .logo{
+    width: 140px;
+
+    overflow: hidden;
+}
+
+.navbar .logo img{
+    width: 140px;
+    height: 100%;
+}
+
+
+.navbar .enlaces{
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .enlaces li{
+    list-style: none;
+}
+
+.navbar .enlaces li:hover a{
+   border-bottom: 3px solid #0038A8;
+   color: black;
+}
+
+.navbar .enlaces li a{
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .btn_donation{
+    background-color: #0038A8;
+
+    padding: 15px 20px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    color: white;
+}
+
+.navbar .btn_donation:hover{
+    background-color: white;
+    color: #0038A8;
+    border: 1px solid #0038A8;
+    padding: 14px 19px;
+}
+
+.hamburger_menu{
+    display: none;
+}

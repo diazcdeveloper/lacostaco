@@ -1,0 +1,19 @@
+@media (max-width: 1000px) {
+
+    .donation_page img{
+        position: absolute;
+        top: 130px;
+        width: 200px;
+    }
+    
+    .donation_page .working{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .donation_page .soon{
+        font-size: 20px;
+        letter-spacing: 10px;
+        margin-left: 100px;
+    }
+}

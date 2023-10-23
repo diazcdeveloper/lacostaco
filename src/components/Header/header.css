@@ -1,0 +1,89 @@
+.header {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  height: calc(100vh - 100px);
+
+  display: flex;
+
+  color: rgb(70, 70, 70);
+}
+
+.header .left_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 100px;
+
+  height: 100%;
+  width: 50%;
+}
+
+.header .bg_responsive{
+  display: none;
+}
+
+.header .left_header h1 {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 75px;
+}
+
+.header .left_header h2 {
+  letter-spacing: 55px;
+}
+
+.header .left_header .parrafo {
+  background-color: rgb(70, 70, 70);
+
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 10px;
+
+  width: 350px;
+
+  color: white;
+  font-size: 18px;
+}
+
+.header .right_header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 30px;
+
+  background-image: url("/kid5.jpg");
+  background-size: cover;
+
+  height: 100%;
+  width: 50%;
+}
+.header .right_header .header_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  background-color: white;
+
+  padding: 10px;
+  margin-bottom: 40px;
+
+  color: black;
+
+  width: 150px;
+  height: 150px;
+}
+
+.header .right_header .header_card h3 {
+  font-size: 30px;
+}
+
+.header .right_header .header_card p {
+  text-align: center;
+}

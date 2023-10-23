@@ -1,0 +1,29 @@
+@media (max-width: 1000px){
+
+    .pillars{
+        background-repeat: repeat-y;
+        height: auto;
+
+        padding: 30px;
+    }
+
+    .pillars h2{
+        font-size: 50px;
+        text-align: center;
+    }
+
+
+    .pillars .cards .card {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      
+        width: 70%;
+      
+        padding: 20px;
+      
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow: 20px 20px 30px #d9d9d9, -20px -20px 60px #ffffff;
+      }
+}

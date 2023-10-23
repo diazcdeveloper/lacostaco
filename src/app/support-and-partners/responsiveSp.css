@@ -1,0 +1,19 @@
+@media (max-width: 1000px) {
+
+    .sp img{
+        position: absolute;
+        top: 130px;
+        width: 200px;
+    }
+    
+    .sp .working{
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .sp .soon{
+        font-size: 20px;
+        letter-spacing: 10px;
+        margin-left: 100px;
+    }
+}

@@ -1,0 +1,46 @@
+.pillars {
+  /* background-color: #f2f2f2; */
+  background-image: url('/bgLogo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: calc(100vh - 100px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: rgb(70, 70, 70);
+}
+
+.pillars h2 {
+  font-size: 70px;
+  font-weight: 900;
+
+  margin: 50px 0 100px 0;
+}
+
+.pillars .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.pillars .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 25%;
+
+  padding: 20px;
+
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 20px 20px 30px #d9d9d9, -20px -20px 60px #ffffff;
+}
+
+.pillars .cards .card {
+  align-items: center;
+}
