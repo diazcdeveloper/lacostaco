@@ -1,5 +1,5 @@
 import './donation.css'
-import './ResponsiveDonation.css'
+import './responsiveDonation.css'
 
 export default function Donation() {
   return (
