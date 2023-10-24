@@ -23,6 +23,10 @@
 
 @media (max-width: 1000px) {
 
+    .donations_page{
+        height: calc(100vh - 80px);
+    }
+
     .donations_page img{
         position: absolute;
         top: 130px;

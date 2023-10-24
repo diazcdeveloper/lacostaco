@@ -35,6 +35,10 @@
 
 @media (max-width: 1000px) {
 
+    .ministries{
+        height: calc(100vh - 80px);
+    }
+
     .ministries img{
         position: absolute;
         top: 0px;

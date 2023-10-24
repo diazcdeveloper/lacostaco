@@ -6,7 +6,7 @@
 
     position: relative;
 
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
 
     color: rgb(70, 70, 70);
 }
@@ -34,6 +34,10 @@
 }
 
 @media (max-width: 1000px) {
+
+    .sap{
+        height: calc(100vh - 80px);
+    }
 
     .sap img{
         position: absolute;

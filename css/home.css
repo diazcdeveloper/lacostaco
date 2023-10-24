@@ -155,7 +155,6 @@
 /* pillars of ministry---------------------------------------------- */
 
 .pillars {
-  /* background-color: #f2f2f2; */
   background-image: url('../img/bgLogo.png');
   background-size: contain;
   background-repeat: no-repeat;
@@ -206,12 +205,13 @@
   .pillars{
       background-repeat: repeat-y;
       height: auto;
+      height: calc(100vh - 80%);
 
       padding: 30px;
   }
 
   .pillars h2{
-      font-size: 50px;
+      font-size: 60px;
       text-align: center;
   }
 
@@ -220,9 +220,10 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 20px;
     
-      width: 80%;
+      width: 75%;
+      height: 170px;
     
       padding: 15px;
     
