@@ -15,3 +15,8 @@ html, body{
     overflow-x: hidden; 
 }
 
+:root{
+    --yellow: #FCD116;
+    --blue:#0038A8;
+    --red:#CE1126;
+}
