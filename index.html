@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Suporting, encouraging and training Colombian lead missions on the
-    north and west coasts of Colombia">
-    <meta name="keywords" content="mission, costa, colombia, support, kids">
-
+    <meta
+      name="description"
+      content="Suporting, encouraging and training Colombian lead missions on the
+    north and west coasts of Colombia"
+    />
+    <meta name="keywords" content="mission, costa, colombia, support, kids" />
 
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/components/navbar.css" />
@@ -14,12 +16,37 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/sap.css" />
     <link rel="stylesheet" href="css/ministries.css" />
-    <link rel="stylesheet" href="css/faqs.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/modal_home.css">
+    <link rel="stylesheet" href="css/faqs.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/modal_home.css" />
     <title>La Costa Colombia</title>
   </head>
   <body>
+    <!-- --------modal HOME ----------------- -->
+
+    <dialog class="modal_home scale-in-center" id="modal_home">
+      <div class="content">
+        <h3><span>LA COSTA COLOMBIA</span></h3>
+        <p>
+          At this moment, we are working on the content of our website. In the
+          meantime, you can continue supporting the ministries
+        </p>
+        <a
+          class="btn_donation_modal"
+          href="https://buy.stripe.com/eVacNFeLnb7saEo3cc"
+          >SUPPORT THE MISSION</a
+        >
+        <button class="btn_close_modal_home scale-in-hor-center" id="btn_close_modal_home">
+          <div></div>
+          <div></div>
+        </button>
+      </div>
+    </dialog>
+
+    <!--------------END modal HOME -------------------->
+
+    <!----------------- NAVBAR----------------------->
+
     <nav class="navbar">
       <div class="logo">
         <a href="/index.html"><img src="img/logoNavbar.jpeg" alt="" /></a>
@@ -32,7 +59,9 @@
         <li class="faqs_link" id="btn_faqs">FAQs</li>
         <li class="contact_link" id="btn_contact">CONTACT</li>
       </ul>
-      <a class="btn_donation" href="https://buy.stripe.com/eVacNFeLnb7saEo3cc">DONATE</a>
+      <a class="btn_donation" href="https://buy.stripe.com/eVacNFeLnb7saEo3cc"
+        >DONATE</a
+      >
 
       <div class="menu" id="menu">
         <div></div>
@@ -41,23 +70,18 @@
       </div>
     </nav>
 
-    <!-- --------modal HOME ----------------- -->
+    <!--------------------NAVBAR end------------------>
 
-    <dialog class="modal_home" id="modal_home">
-      <h3> <span>LA COSTA COLOMBIA</span></h3>
-      <p>At this moment, we are working on the content of our website. 
-        In the meantime, you can continue supporting the ministries</p>
-      <a class="btn_donation_modal" href="https://buy.stripe.com/eVacNFeLnb7saEo3cc">SUPPORT THE MISSION</a>
-      <button class="btn_close_modal_home" id="btn_close_modal_home">x</button>
-    </dialog>
-
-
-    <!-- -----------END modal HOME -------------------- -->
+    <!-------------------HOME PAGE ------------------->
 
     <section class="home" id="home">
       <div class="header">
         <div class="left_header">
-          <img class="bg_responsive" src="img/bgResponsiveHeader2.webp" alt="" />
+          <img
+            class="bg_responsive"
+            src="img/bgResponsiveHeader2.webp"
+            alt=""
+          />
           <div class="left_header_content">
             <h1>LA COSTA COLOMBIA</h1>
             <h2>MISSION</h2>
@@ -129,6 +153,8 @@
         </div>
       </div>
     </section>
+
+    <!----------------- HOME PAGE end --------------->
     <section class="about hide" id="about">
       <img src="img/trabajando.png" alt="" />
       <div class="working">ABOUT PAGE... <br />WE ARE WORKING!!!</div>
@@ -148,17 +174,15 @@
       <div class="soon">We will be ready soon.</div>
     </section>
     <section class="faqs hide" id="faqs">
-        <img src="img/trabajando.png" alt="" />
-        <div class='working'>FAQs PAGE... <br />WE ARE WORKING!!!</div>
-        <div class='soon'>We will be ready soon.</div>
+      <img src="img/trabajando.png" alt="" />
+      <div class="working">FAQs PAGE... <br />WE ARE WORKING!!!</div>
+      <div class="soon">We will be ready soon.</div>
     </section>
     <section class="contact hide" id="contact">
-        <img src="img/trabajando.png" alt="" />
-        <div class='working'>CONTACT PAGE... <br />WE ARE WORKING!!!</div>
-        <div class='soon'>We will be ready soon.</div>
+      <img src="img/trabajando.png" alt="" />
+      <div class="working">CONTACT PAGE... <br />WE ARE WORKING!!!</div>
+      <div class="soon">We will be ready soon.</div>
     </section>
-
-
 
     <script type="module" src="js/menu.js"></script>
     <script type="module" src="js/navigation.js"></script>
