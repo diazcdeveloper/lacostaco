@@ -39,7 +39,7 @@ export default function Navbar() {
             <li onClick={toggleMenu}><Link href={"/faqs"}>FAQs</Link></li>
             <li onClick={toggleMenu}><Link href={"/contact"}>CONTACT</Link></li>
         </ul>
-        <Link className="btn_donation" href={"/donation"}>DONATION</Link>
+        <Link className="btn_donation" href={"https://buy.stripe.com/eVacNFeLnb7saEo3cc"}>DONATION</Link>
 
         <div onClick={toggleMenu} className={changeX}>
           <div></div>
